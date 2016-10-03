@@ -1,0 +1,18 @@
+{
+    "version": "1.0.0",
+    "summary": "Font Awesome icons for Elm-Html encapsulated in an Icon type.",
+    "repository": "https://github.com/roSievers/font-awesome.git",
+    "license": "BSD-3-Clause",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+        "FontAwesome",
+        "FontAwesome.Icons",
+        "FontAwesome.Modifiers"
+    ],
+    "dependencies": {
+        "elm-lang/core": "4.0.0 <= v < 5.0.0"
+    },
+    "elm-version": "0.17.0 <= v < 0.18.0"
+}

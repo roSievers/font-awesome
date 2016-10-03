@@ -4,6 +4,12 @@ module FontAwesome
         , toHtml
         )
 
+{-|
+
+@docs Icon, toHtml
+
+-}
+
 import Html exposing (span, Html)
 import Html.Attributes exposing (class, attribute)
 import List
@@ -21,10 +27,13 @@ type alias Rotation =
     }
 
 
+{-| The abstract Icon type used to hide implementation details. -}
 type alias Icon =
     I.Icon
 
 
+{-| Turns an icon into a html `<span>` with appropriate classes.
+-}
 toHtml : Icon -> Html msg
 toHtml (I.Icon data) =
     span
